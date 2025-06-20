@@ -17,7 +17,7 @@
 
 .info-container {
   display: flex;
-  background-image: url("src/img/header-image.jpg");
+  background-image: url("/img/header-image.jpg");
   background-size: cover;
   justify-content: center;
   padding: 4rem;

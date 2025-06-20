@@ -1,7 +1,7 @@
 import { GithubButton } from "./icons/GithubButton";
 import "./header.css";
 import { LinkedinButton } from "./icons/LinkedinButton";
-import profileImg from "../img/profile-img.jpeg";
+import profileImg from "/public/img/profile-img.jpeg"
 
 export const Header = () => {
   return (
