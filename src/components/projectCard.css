@@ -1,0 +1,60 @@
+.project-container {
+    padding: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem; /* lite luft mellan korten */
+    cursor: pointer;
+  }
+  
+  .project-title {
+    padding: 0;
+  }
+  /* Kort */
+  .project-card {
+    width: 100%;
+    max-width: 80vw;
+    text-align: left;
+    padding: 1rem;
+  }
+  
+  /* Bild */
+  .project-img {
+    width: 100%;
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .tag-container {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .tag {
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    background: lightgreen;
+    font-size: 0.8em;
+  }
+  
+  /* === Media Queries === */
+  
+  /* Mellanstora skärmar: 2 kolumner */
+  @media (min-width: 800px) {
+    .project-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+      justify-items: center;
+    }
+
+    .project-card {
+      width: 100%;
+      min-width: 40vw;
+      text-align: left;
+      padding: 1rem;
+    }
+  
+  }
