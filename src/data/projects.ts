@@ -6,7 +6,8 @@ export const projects = [
     description:
     "A web application designed for children and youth to keep track reading projects in a simple and fun way, developed as a prototype for a friend. The app features a lightweight backend built with Express and MongoDB, and a responsive frontend developed using Vue and sass.",
     image: "img/book.jpg",
-    link: "https://example.com",
+    link: "https://catrintq.github.io/book/",
+    github: "",
     tags: ["Vue", "Sass", "TypeScript", "MongoDB", "Express"],
   },
   {
@@ -17,6 +18,7 @@ export const projects = [
       "A fully responsive e-commerce project built with Vue and TypeScrip. Images are generated with an AI image generator and functions are developed based on a school assignment, with functions for the cart, highlights when adding a new item, a form for purchase and much more.",
     image: "img/donut.jpg",
     link: "https://catrintq.github.io/donut-shop/",
+    github: "https://github.com/CatrinTQ/donut-shop",
     tags: ["React", "Sass", "TypeScript"],
   },
   {
@@ -26,7 +28,8 @@ export const projects = [
     description:
       "A lightweight REST API for a basic webshop, built with TypeScript and Express.js. The backend runs on a local XAMPP server and uses MySQLfor data storage. The API supports full CRUD operations for managing products and categories, including fields like name, price,description, and stock status.",
     image: "img/api.jpg",
-    link: "https://example.com",
+    link: "",
+    github: "https://github.com/CatrinTQ/webshop-api",
     tags: ["MariaDB", "XAMPP", "TypeScript", "Express.js", "MYSQL"],
   },
   {
@@ -36,7 +39,8 @@ export const projects = [
     description:
       "A responsive Todo app built with React and TypeScript. Users can add, remove, and sort todos, as well as mark tasks as done or undone. Todos are saved in localStorage to persist between sessions. The app features priority selection, a clean UI using Tailwind CSS and dark mode toggle (in progress).",
     image: "img/todo.jpg",
-    link: "https://example.com",
+    link: "https://medieinstitutet.github.io/fed24d-the-last-todos-CatrinTQ/",
+    github: "https://github.com/Medieinstitutet/fed24d-the-last-todos-CatrinTQ",
     tags: ["React", "Tailwind", "TypeScript"],
   },
 ];

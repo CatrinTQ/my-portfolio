@@ -37,13 +37,18 @@
     background: lightgreen;
     font-size: 0.8em;
   }
-  
+
   .live-site {
-    transition: transform 0.3s ease-in-out;
+    display: block;
+    text-align: left;
+    transform-origin: left;
+    transition: transform 0.2s ease-in-out;
+    padding: 0.5rem;
+    width: fit-content;
   }
   
   .live-site:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
     cursor: pointer;
   }
   
@@ -56,6 +61,7 @@
       grid-template-columns: repeat(2, 1fr);
       gap: 2rem;
       justify-items: center;
+      align-items: stretch;
     }
 
     .project-card {
