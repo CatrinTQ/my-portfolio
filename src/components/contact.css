@@ -17,7 +17,6 @@
   .contact-info h2 {
     font-size: 2rem;
     color: #ffa725;
-    margin-bottom: 1rem;
     font-family: 'Bakbak One', sans-serif;
   }
   
@@ -29,7 +28,7 @@
   
   .contact-info h4,
   .contact-info h5 {
-    margin: 0.3rem 0;
+    margin: 0.1rem 0;
     font-weight: 400;
     color: #333;
   }

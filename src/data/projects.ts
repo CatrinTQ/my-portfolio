@@ -6,7 +6,7 @@ export const projects = [
     description:
     "A web application designed for children and youth to keep track reading projects in a simple and fun way, developed as a prototype for a friend. The app features a lightweight backend built with Express and MongoDB, and a responsive frontend developed using Vue and sass.",
     image: "img/book.jpg",
-    link: "https://catrintq.github.io/book/",
+    link: "https://book-client-xi.vercel.app/",
     github: "",
     tags: ["Vue", "Sass", "TypeScript", "MongoDB", "Express"],
   },
@@ -40,7 +40,7 @@ export const projects = [
       "A responsive Todo app built with React and TypeScript. Users can add, remove, and sort todos, as well as mark tasks as done or undone. Todos are saved in localStorage to persist between sessions. The app features priority selection, a clean UI using Tailwind CSS and dark mode toggle (in progress).",
     image: "img/todo.jpg",
     link: "https://medieinstitutet.github.io/fed24d-the-last-todos-CatrinTQ/",
-    github: "https://github.com/Medieinstitutet/fed24d-the-last-todos-CatrinTQ",
+    github: "https://github.com/CatrinTQ/TodoApp",
     tags: ["React", "Tailwind", "TypeScript"],
   },
 ];
