@@ -4,7 +4,7 @@ export const projects = [
     title: "Library project",
     type: "Collab Vallentuna Bibliotek",
     description:
-    "A web application designed for children and youth to keep track reading projects in a simple and fun way, developed as a prototype for a friend. The app features a lightweight backend built with Express and MongoDB, and a responsive frontend developed using Vue and sass.",
+    "A web application designed for children and youth to keep track reading projects and dedicate their reading goal to a sports team, developed as a prototype for a friend at Vallentuna Bibliotek. The app features a lightweight backend built with Express and MongoDB, and a responsive frontend developed using Vue and sass.",
     image: "img/book.jpg",
     link: "https://book-client-xi.vercel.app/",
     github: "",
