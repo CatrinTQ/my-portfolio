@@ -12,11 +12,15 @@
   }
   /* Kort */
   .project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Fördelar top–botten-innehåll */
     width: 100%;
     max-width: 80vw;
     text-align: left;
     padding: 1rem;
   }
+  
   
   /* Bild */
   .project-img {
